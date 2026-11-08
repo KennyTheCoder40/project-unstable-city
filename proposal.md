@@ -1,41 +1,47 @@
-# Unstable City
+# Title
+Unstable City
 
 ## Repository
 [<Link to your project's public GitHub respository>](https://github.com/KennyTheCoder40/project-unstable-city)
 
 ## Description
-1-2 sentence description of what it will do and how it relevant to media and digital arts.
+Unstable City will be an interactive artwork that allows the user explore a pixelated city.
+The artwork will be aesthetically pleasing and implement basic game movements for user engagement.
 
 ## Features
-- Feature 1
-	- Short explaination of how it will be executed.
-- Feature 2
-	- Short explaination of how it will be executed.
-- Feature N 
-	- Short explaination of how it will be executed.
+- Feature 1: Press arrow keys to move background position.
+	- Get pressed keys, then set Vector position based on updated direction.
+- Feature 2: Character walking animation
+	- Utilize a loop to loop through a series of images 
+- Feature 3: Hold SHIFT key to switch background & costume
+	- Use pygame.key.get_pressed() to introduce SHIFT key.
+ 	- A custom function is needed to maintain the animation code.
 
 ## Challenges
-- Short sentence of any skill or topic that needs to be learnt or researched.
+- Since display window will be smaller than background, it needs to move with the character.
 - Short sentence of any skill or topic that needs to be learnt or researched.
 - Short sentence of any skill or topic that needs to be learnt or researched.
 
 ## Outcomes
 Ideal Outcome:
-- Briefly describe what is the ideal outcome?
+- The character is able to move around the city.
+- When we switch to the destruction view, the character should still be able to move.
+- Brings a sense of duality.
 
 Minimal Viable Outcome:
-- Briefly describe the bare essential for a good working outcome?
+- The character will just move around the city. No special features required.
 
 ## Milestones
 
 - Week 1
-  1. Goal 1
-  2. Goal 2
+  1. Complete character + background art on Procreate
+  2. Implement basic user movement on VS Code
 
 - Week 2
-  1. Goal 1
-  2. Goal 2
+  1. Add character animation code
+  2. Display moves with character
 
-- Week N (Final)
-  1. Goal 1
-  2. Goal 2
+- Week 3 (Final)
+  1. Implement SHIFT to switch between backgrounds & costumes
+  2. Optimize code
+  3. Record video demonstration
